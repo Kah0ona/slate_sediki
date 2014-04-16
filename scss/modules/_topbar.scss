@@ -7,10 +7,9 @@
 // *************************************
 
 .Topbar {
-  background-image: url('../img/dark_stripes.png');
-//  height: 3rem;
+  background-color: #ebebeb;
   color: white;
-  border-bottom: 2px solid #444444;
+
 }
 
 // -------------------------------------
@@ -43,19 +42,8 @@
 .Topbar-logo {	
 	float: left;
 }
-
-.Topbar-logo a {
-	color: white;
-	font-size: rem(42px);
-	text-shadow: 2px 2px #222;
-	font-family: $navFont;
-	font-style: normal;
-	font-weight: 400;
-	line-height: 7rem;
-}
-
-.Topbar-logo a:hover {
-	text-decoration: none;
+.Topbar-logo img {
+	width: 250px; //test
 }
 .Topbar-contact {
 	margin-top: rem(16px);
@@ -64,8 +52,8 @@
 }
 
 .Topbar-contact a {
-	font-size: rem(22px);
-	color: white;
+	font-size: rem(26px);
+	color: #323232;
 	fill: green;
 	line-height: 5rem;
 }

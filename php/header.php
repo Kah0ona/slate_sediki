@@ -43,13 +43,11 @@
 		<div class="u-gridContainer">
 			
 			<div class="Topbar-logo">
-				<a href="/">
-					RIJSCHOOL SEDIKI
-				</a>
+				<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/cropped-logo.png" />
 			</div>
 			<div class="Topbar-contact">
 				<a href="tel:0641507461">
-					<svg class="Icon" viewBox="0 0 128 128">
+					<svg class="Icon Icon--contact" viewBox="0 0 128 128">
 						<use xlink:href="#icon-phone"></use>
 					</svg>
 					06-41507461
@@ -62,7 +60,7 @@
 	<div class="Navigation-wrap">
 		<?php include 'includes/navigation.php'; ?>
 	</div>
-
+ 
 	<div class="Header">
 		<div class="u-gridContainer">
 			<div class="Header-image">
