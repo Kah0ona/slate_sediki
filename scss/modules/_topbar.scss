@@ -56,6 +56,10 @@
 	color: #323232;
 	fill: green;
 	line-height: 5rem;
+	&:hover {
+		text-decoration: none;
+		color: #ae191e;
+	}
 }
 
 
