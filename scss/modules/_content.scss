@@ -1,3 +1,30 @@
 .Content {
+	table {
+		width: 100%;
+		border: 2px solid #ebebeb;
+		border-radius: 6px;
+	}
+
+	tr {
+		&:nth-child(even){
+			background-color: #ebebeb;
+		}	
+		&:nth-child(odd){
+			background-color: white;
+		}
+	}
+
+	td {
+		padding: 0.5em;
+	}
+
+	img {
+		margin: 5px;
+		padding: 5px;
+		border: 1px solid $c-blue;
+	}
+
 	
 }
+
+

@@ -42,6 +42,7 @@
 
 // ----- List item ----- //
 .Navigation-wrap {
+	@extend .u-cf;
 	background-color: $c-blue;
 }
 
@@ -73,11 +74,17 @@
   &:hover {
 	  text-decoration: none;
   }
+  @media screen and (max-width: 455px){
+	  line-height: inherit;
+  }
 }
 
 .Navigation-link--invertedBold {
   color: $c-white; 
   font-weight: bold;
+}
+.nav-toggle {
+	background-color: $c-blue;
 }
 
 

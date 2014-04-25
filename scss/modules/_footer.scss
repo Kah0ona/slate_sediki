@@ -1,5 +1,6 @@
 .Footer {
 	background-color: $c-blue;
+	border-top: 3px solid darken($c-blue, 20%);
 }
 
 .Footer-inner {

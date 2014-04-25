@@ -24,6 +24,7 @@
     <link rel="shortcut icon" href="<?php echo get_stylesheet_directory_uri(); ?>/favicon.ico">
 
     <!-- Include only one concatenated stylesheet here, minified -->
+	<script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
     <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/css/production.min.css">
 
     <!-- Head scripts, avoid including scripts here -->
@@ -41,11 +42,17 @@
 	<!-- Topbar with logo -->
 	<div class="Topbar">
 		<div class="u-gridContainer">
-			
 			<div class="Topbar-logo">
-				<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/cropped-logo.png" />
+				<a href="/">
+					<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/cropped-logo.png" />
+				</a>
 			</div>
 			<div class="Topbar-contact">
+				<a href="https://www.facebook.com/mohamed.sediki.161">
+					<svg class="Icon Icon--facebook" viewBox="0 0 128 128">
+						<use xlink:href="#icon-facebook2"></use>
+					</svg>
+				</a>
 				<a href="tel:0641507461">
 					<svg class="Icon Icon--contact" viewBox="0 0 128 128">
 						<use xlink:href="#icon-phone"></use>
@@ -64,10 +71,15 @@
 	<div class="Header">
 		<div class="u-gridContainer">
 			<div class="Header-image">
-				<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/polo.jpg" />
+				<div class="cycle-slideshow"
+					 data-cycle-fx="fade"
+					 data-cycle-timeout="6000">
+					<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/polo_sediki2.jpg" />
+					<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/polo_sediki.jpg" />
+				</div>
 				<div class="Header-slogan">
 					Meld je nu aan voor een proefles 
-					<span class="Header-button">Aanmelden</span>
+					<a class="Header-button" href="/contact">Aanmelden</a>
 				</div>
 			</div>
 		</div>

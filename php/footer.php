@@ -12,7 +12,8 @@
 	<!-- Copyright info -->
 	<div class="Footer-socket">
 		<div class="u-gridContainer">
-			<p>&copy; <?php bloginfo('name'); ?> <?php echo date("Y"); ?></p>
+			<p>&copy; <?php bloginfo('name'); ?> <?php echo date("Y"); ?> -
+		       Site gebouwd door <a href="http://lokaalgevonden.nl" target="_blank">LokaalGevonden</a></p>
 		</div>
 	</div>
 	

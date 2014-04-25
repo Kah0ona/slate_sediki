@@ -18,6 +18,9 @@
 // ----- Bourbon Neat ----- //
 @import "libs/neat/neat";
 
+// ----- responsive nav ----- //
+@import "libs/responsive-nav/responsive-nav";
+
 // ----- Override ----- //
 @import "libs/libs-override";
 
@@ -51,7 +54,7 @@
 
 @import "modules/button";
 
-@import "modules/table";
+@import "modules/table"; 
 
 @import "modules/navigation";
 
@@ -66,6 +69,8 @@
 @import "modules/footer";
 
 @import "modules/usp";
+
+@import "modules/comments";
 // -------------------------------------
 // Inbox
 // -------------------------------------

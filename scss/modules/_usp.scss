@@ -2,7 +2,7 @@
 	
 }
 
-.Usp ul {
+.Usp ul, .Usp-references p {
 	background-color: $c-lightblue;
 	padding: 25px;
 	border-radius: 6px;
@@ -25,9 +25,16 @@
 	line-height: 18px;
 	background: none ;
 	background-image: url("../img/vinkje.png");
-	height: 1.34rem;
-	width: 1.36rem;
+	height: 1.34em;
+	width: 1.36em;
+	@media screen and (max-width: 320px){
+		height: 2em;
+		width: 2em;
+	}
+
+
 }
 .Usp ul li {
 	line-height: rem(34px);
 }
+

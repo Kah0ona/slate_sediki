@@ -40,6 +40,7 @@
 .Header-image {
 	position: relative;
 	box-shadow: $l-boxShadow;
+	overflow: hidden;
 }
 
 .Header-image img {
@@ -49,6 +50,7 @@
 
 .Header-slogan {
 	position: absolute;
+	z-index: 9999;
 	width: 100%;
 	bottom: 0px;
 	text-align: center;
@@ -56,12 +58,37 @@
 	font-size: rem(38px);
 	color: $c-white;
 	font-family: $navFont;
-	background-color: rgba(31,105,170,0.7)
+	background-color: rgba(31,105,170,0.7);
+	@media screen and (max-width: 574px) {
+		font-size: rem(20px);
+	}
+	@media screen and (max-width: 566px){
+		position: static;
+	}
+	@media screen and (max-width: 884px) {
+		font-size: rem(22px);
+	}
 }
+
 
 .Header-button {
 	@include linear-gradient(to bottom, $c-green, darken($c-green, 10%));
 	background-color: $c-green;
 	border-radius: 6px;
-	padding: 15px;
+	padding: rem(15px);
+	color: white;
+	&:hover {
+		text-decoration: none;
+		@include linear-gradient(to bottom, darken($c-green,10%), darken($c-green, 20%));
+		backcground-color: darken($c-green, 20%);
+	}
+
+	@media screen and (max-width: 574px) {
+		font-size: rem(20px);
+		padding: rem(5px); 
+	}
+	@media screen and (max-width: 884px) {
+		font-size: rem(22px);
+	}
 }
+

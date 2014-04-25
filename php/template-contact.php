@@ -20,7 +20,11 @@ Template Name: Contactpagina
 			</div>
 			<aside class="u-gridColumn6">
 				<h2>Waar Sediki werkt</h2>
-				<script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
+				<p>
+					Sediki hanteert als werkgebied: Gouda, Reeuwwijk, Waddinxveen, Boskoop, Bodegraven, Haasdrecht, Stolwijk, 
+					Gouderak, Nieuwekerk aan De Ijssel, Capelle aan De IJssel, Oudewater, Bergambacht, Woerden, Schoonhoven,
+					Moerkappele, Zevenhuizen, Zoetermeer, Alphen aan de Rijn
+				</p>
 				<div id="map_canvas"></div>
 			</aside>
 		</div>

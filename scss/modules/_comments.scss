@@ -1,0 +1,29 @@
+.Comments {
+	border-top: 1px solid #ebebeb;
+
+	.avatar, .says,
+   	.form-allowed-tags {
+		display: none;
+	}
+
+	label {
+		display: block;
+	}
+	textarea {
+		width: 100%;
+	}
+	.children {
+		margin-left: 15px;
+			
+	}
+
+	.comment{
+		border-bottom: 1px solid #ebebeb;
+		margin-bottom: 20px;
+	}
+	.commentmetadata {
+		display: none;
+	}
+}
+
+

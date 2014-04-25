@@ -9,16 +9,17 @@ html {
   font-size: $t-fontSize;
 
   @media screen and (max-width: 320px){
-	  font-size: ($t-fontSize/16*10);
+	  font-size: ($t-fontSize/16*12);
   }
 }
 
 body {
-  background  : $c-white;
   color       : $c-black;
   font-family : $t-fontFamily;
   font-size   : 100%;
   line-height : $t-lineHeight;
+  background: url('../img/background-stripes.png');
+  background-color  : $c-white;
 }
 
 // -------------------------------------
@@ -96,5 +97,25 @@ small {
 
 img {
   max-width: 100%;
+}
+
+// -------------------------------------
+// Table
+// -------------------------------------
+table {
+	width: 100%;
+}
+
+tr {
+	&:nth-child(even){
+		background-color: #ededed;
+	}	
+	&:nth-child(odd){
+		background-color: #fff;
+	}
+}
+
+td {
+	padding: 0.5em;
 }
 

@@ -1,15 +1,22 @@
+// CONFIG, put the zoomlevel and address
+var ZoomLevel = 11;
+var Address = 'Gouda';
+// END CONFIG
+
+
 var map;
 var geocoder;
+
 function initialize() {
 	geocoder = new google.maps.Geocoder();
 	var mapCanvas = document.getElementById('map_canvas');
 	var mapOptions = {
 	  center: new google.maps.LatLng(44.5403, 1.5463),
-	  zoom: 11,
+	  zoom: ZoomLevel,
 	  mapTypeId: google.maps.MapTypeId.ROADMAP
 	}
 	map = new google.maps.Map(mapCanvas, mapOptions);
-	codeAddress('Gouda');
+	codeAddress(Address);
 }
 
 function codeAddress(address) {

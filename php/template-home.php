@@ -30,7 +30,13 @@ Template Name: Homepage
 					<li>Les eventueel ook 's avonds of in het weekend</li>
 					<li>Ook faalangstinstructeur</li>
 				</ul>
+				<div class="Usp-references">
+					<h3>Wat anderen zeggen over ons</h3>
+					<p>Lees <a href="/referenties">wat anderen zeggen</a> over Rijschool Sediki!</p>
+				</div>
 			</aside>
+
+			
 		</div>
 	</div>
 
