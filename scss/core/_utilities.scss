@@ -43,6 +43,9 @@
 
 .u-gridColumn3 {
 	@include span-columns(3);
+	@media screen and (max-width: 575px) {
+		@include span-columns(12);
+	}
 }
 .u-gridColumn6 {
 	@include span-columns(6);
@@ -51,8 +54,26 @@
 		@include span-columns(12);
 	}
 }
+.u-gridColumn4 {
+	@include span-columns(4);
+
+	@media screen and (max-width: 575px) {
+		@include span-columns(12);
+	}
+
+}
+
+.u-gridColumn8 {
+	@include span-columns(8);
+	@media screen and (max-width: 575px) {
+		@include span-columns(12);
+	}
+}
 .u-gridColumn9 {
 	@include span-columns(9);
+	@media screen and (max-width: 575px) {
+		@include span-columns(12);
+	}
 }
 
 // -------------------------------------

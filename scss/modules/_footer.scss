@@ -14,10 +14,20 @@
 }
 
 .Footer-inner .widget {
-	@include span-columns(6);
+	@include span-columns(4);
+
+	@media screen and (max-width: 730px) {
+		@include span-columns(12);
+	}
+ 	
 }
 
 .Footer-socket {
 	background-color: $c-darkblue;
 	color: white;
+} 
+
+.menu-0 {
+	width: 100%;
 }
+
