@@ -16,12 +16,12 @@ Template Name: App pagina
 						<h2><?php the_title(); ?></h2>
 						<div>
 							<?php the_content(); ?>
+							<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/sediki_qr.jpg" />
 							<?php edit_post_link('Edit this entry.', '<p>', '</p>'); ?>
 						</div>
 					</article>
-
 				<?php endwhile; endif; ?>
-				</div>
+				</div> 
 			</div>
 		</div>
 	</div>
