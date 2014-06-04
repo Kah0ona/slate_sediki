@@ -19,6 +19,10 @@ Template Name: Homepage
 			<?php endwhile; endif; ?>
 			</div>
 			<aside class="Usp u-gridColumn6">
+				<span style="margin-top: 20px;display: block; background-color: #3bc60b; color: #fff; font-weight: bold; text-align: center; padding: 20px; border-radius: 6px;">
+					ACTIE! Tijdelijk werken wij met verlaagde tarieven, en een gratis proefles!
+				</span>
+			
 				<h2>Waarom Rijschool Sediki</h2>
 				<ul>
 					<li>Hoge kwaliteit en betrouwbaarheid</li>

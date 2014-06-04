@@ -65,12 +65,12 @@
 			</div>
 		</div>
 	</div>
-
-	<!-- Main navigation -->
+ 
+	<!-- Main     navigation -->
 	<div class="Navigation-wrap">
 		<?php include 'includes/navigation.php'; ?>
 	</div>
- 
+   
 	<div class="Header">
 		<div class="u-gridContainer">
 			<div class="Header-image">
@@ -81,7 +81,8 @@
 					<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/polo_sediki.jpg" />
 				</div>
 				<div class="Header-slogan">
-					Meld je nu aan voor een proefles 
+				<!--	Meld je nu aan voor een proefles  -->
+					Tijdelijk gratis proefles!
 					<a class="Header-button" href="/contact">Aanmelden</a>
 				</div>
 			</div>

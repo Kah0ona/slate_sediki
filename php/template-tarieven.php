@@ -12,8 +12,75 @@ Template Name: Tarievenpagina
 				<article class="Content-article" id="post-<?php the_ID(); ?>">
 					<h2><?php the_title(); ?></h2>
 					<div>
+						<span style="display: block; background-color: #3bc60b; color: #fff; font-weight: bold; text-align: center; padding: 20px; border-radius: 6px;">
+							ACTIE! Tijdelijk werken wij met verlaagde tarieven, en een gratis proefles!
+						</span>
 						<?php the_content(); ?>
 
+						<h3>Prijzen losse lessen/examens</h3>
+						<table>
+							<tr>
+								<td>Proefles</td><td><b>ACTIE: Tijdelijk gratis!</b></td>
+							</tr>
+							<tr>
+								<td>Losse les (60 min.)</td><td>€ 40,-</td>
+							</tr>
+							<tr>
+								<td>Tussentijdse Toets</td><td>€ 165,-</td>
+							</tr>
+							<tr>
+								<td>1e examen</td><td>€ 230,-</td>
+							</tr>
+							<tr>
+								<td>herexamen</td><td>€ 220,-</td>
+							</tr>
+							<tr>
+								<td>BNOR</td><td>€ 240,-</td>
+							</tr>
+							<tr>
+								<td>faalangstexamen</td><td>€ 300,-</td>
+							</tr>
+						</table>
+
+						<h3>Pakketprijzen</h3>
+						<table>
+							<tr>
+								<td>10 lessen, zonder examen</td><td>€ 390,-</td>
+							</tr>
+							<tr>
+								<td colspan="2"><strong>&darr; pakket incl. examen</strong></td>
+							</tr>
+							<tr>
+								<td>10 lessen</td><td>€ 610,-</td>
+							</tr>
+							<tr>
+								<td>15 lessen</td><td>€ 800,-</td>
+							</tr>
+							<tr>
+								<td>20 lessen</td><td>€ 1045,-</td>
+							</tr>
+							<tr>
+								<td>25 lessen</td><td>€ 1170,-</td>
+							</tr>
+							<tr>
+								<td>30 lessen</td><td>€ 1340,-</td>
+							</tr>
+							<tr>
+								<td>35 lessen</td><td>€ 1500,-</td>
+							</tr>
+							<tr>
+								<td>40 lessen</td><td>€ 1670,-</td>
+							</tr>
+							<tr>
+								<td>50 lessen</td><td>€ 2000,-</td>
+							</tr>
+							<tr>
+								<td>60 lessen</td><td>€ 2330,-</td>
+							</tr>
+						</table>
+
+
+<!--
 						<h3>Prijzen losse lessen/examens</h3>
 						<table>
 							<tr>
@@ -72,6 +139,8 @@ Template Name: Tarievenpagina
 								<td>60 lessen</td><td>€ 2500,-</td>
 							</tr>
 						</table>
+
+-->
 
 
 						<?php edit_post_link('Edit this entry.', '<p>', '</p>'); ?>
